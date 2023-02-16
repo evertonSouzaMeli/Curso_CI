@@ -101,6 +101,7 @@ func TestDeletaAlunoHandler(t *testing.T) {
 	assert.Equal(t, http.StatusOK, resposta.Code)
 }
 
+
 func TestEditaUmAlunoHandler(t *testing.T) {
 	database.ConectaComBancoDeDados()
 	CriaAlunoMock()
